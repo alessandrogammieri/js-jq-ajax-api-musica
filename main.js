@@ -25,11 +25,9 @@ $(document).ready(function() {
             genre: dischi[i].genre,
             year: dischi[i].year
           };
-          console.log(context);
           // Stampo l'input a schermo
           var html = template(context);
           $(".cds-container").append(html);
-          console.log(html);
         }
       }
     },
